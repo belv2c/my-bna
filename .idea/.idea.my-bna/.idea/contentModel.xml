@@ -53,6 +53,14 @@
         <e p="webpack.config.js" t="Include" />
         <e p="webpack.config.vendor.js" t="Include" />
         <e p="wwwroot" t="Include">
+          <e p="dist" t="Include">
+            <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
+            <e p="main.js" t="Include" />
+            <e p="main.js.map" t="Include" />
+            <e p="vendor-manifest.json" t="Include" />
+            <e p="vendor.css" t="Include" />
+            <e p="vendor.js" t="Include" />
+          </e>
           <e p="favicon.ico" t="Include" />
         </e>
       </e>
