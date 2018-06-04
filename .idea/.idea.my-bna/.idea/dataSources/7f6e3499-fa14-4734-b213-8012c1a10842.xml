@@ -213,34 +213,38 @@
       <DataType>CHAR(50)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <index id="50" parent="10" name="sqlite_autoindex_User_1">
+    <column id="50" parent="10" name="userpassword">
+      <Position>6</Position>
+      <DataType>nvarchar(50)|0s</DataType>
+    </column>
+    <index id="51" parent="10" name="sqlite_autoindex_User_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
-    <key id="51" parent="10">
+    <key id="52" parent="10">
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>sqlite_autoindex_User_1</UnderlyingIndexName>
     </key>
-    <column id="52" parent="11" name="type">
+    <column id="53" parent="11" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="53" parent="11" name="name">
+    <column id="54" parent="11" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="54" parent="11" name="tbl_name">
+    <column id="55" parent="11" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="55" parent="11" name="rootpage">
+    <column id="56" parent="11" name="rootpage">
       <Position>4</Position>
       <DataType>integer|0s</DataType>
     </column>
-    <column id="56" parent="11" name="sql">
+    <column id="57" parent="11" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>

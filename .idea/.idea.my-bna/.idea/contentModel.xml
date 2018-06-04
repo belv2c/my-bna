@@ -26,6 +26,13 @@
           <e p="HomeController.cs" t="Include" />
           <e p="SampleDataController.cs" t="Include" />
         </e>
+        <e p="Models" t="Include">
+          <e p="Favorite.cs" t="Include" />
+          <e p="Flight.cs" t="Include" />
+          <e p="Note.cs" t="Include" />
+          <e p="Place.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
         <e p="my-bna.csproj" t="IncludeRecursive" />
         <e p="npm-shrinkwrap.json" t="Include" />
         <e p="obj" t="ExcludeRecursive">
