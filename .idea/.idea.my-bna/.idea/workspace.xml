@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0318c6a9-b6cf-4245-90de-6bc5f40fe3cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/my-bna/Models/Place.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-bna/Models/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,7 +45,7 @@
         <item name="mybnadb.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="Place: table" type="ffe0bd85:SqliteImplModel$Table" />
+        <item name="User: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -55,6 +57,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user" pinned="false" current-in-tab="false">
+        <entry file="das://7f6e3499-fa14-4734-b213-8012c1a10842/schema/main/table/user">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -85,15 +96,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Place.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Place.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Models/Place.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
-                <marker date="1528140464000" expanded="true" signature="23:71" ph="{...}" />
-                <marker date="1528140464000" expanded="true" signature="48:69" ph="{...}" />
+                <marker date="1528140547000" expanded="true" signature="23:282" ph="{...}" />
+                <marker date="1528140547000" expanded="true" signature="48:280" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-bna/Models/User.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1528141567000" expanded="true" signature="23:284" ph="{...}" />
+                <marker date="1528141567000" expanded="true" signature="47:282" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -108,6 +141,7 @@
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Favorite.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Place.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/my-bna/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Flight.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Note.cs" root0="FORCE_HIGHLIGHTING" />
@@ -116,10 +150,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql" />
         <option value="$PROJECT_DIR$/my-bna/Models/Favorite.cs" />
         <option value="$PROJECT_DIR$/my-bna/Models/Note.cs" />
         <option value="$PROJECT_DIR$/my-bna/Models/Place.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql" />
+        <option value="$PROJECT_DIR$/my-bna/Models/User.cs" />
       </list>
     </option>
   </component>
@@ -266,7 +301,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5658000" />
+    <option name="totallyTimeSpent" value="6649000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,7 +326,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32994923" />
       <window_info anchor="bottom" id="NuGet" weight="0.32994923" />
-      <window_info anchor="bottom" id="Database Console" sideWeight="0.49911505" weight="0.32994923" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49911505" visible="true" weight="0.32994923" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18053098" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" />
@@ -334,13 +369,6 @@
           <column-attributes>
             <column name="userId" languageId="GenericSQL" />
           </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -391,13 +419,6 @@
     <entry file="file://$PROJECT_DIR$/my-bna/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Models/Flight.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/Models/Favorite.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -422,11 +443,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/Models/Place.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1528140464000" expanded="true" signature="23:71" ph="{...}" />
-            <marker date="1528140464000" expanded="true" signature="48:69" ph="{...}" />
+            <marker date="1528140547000" expanded="true" signature="23:282" ph="{...}" />
+            <marker date="1528140547000" expanded="true" signature="48:280" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Models/Flight.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f6e3499-fa14-4734-b213-8012c1a10842/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f6e3499-fa14-4734-b213-8012c1a10842/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://7f6e3499-fa14-4734-b213-8012c1a10842/schema/main/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Models/User.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1528141567000" expanded="true" signature="23:284" ph="{...}" />
+            <marker date="1528141567000" expanded="true" signature="47:282" ph="{...}" />
           </folding>
         </state>
       </provider>
