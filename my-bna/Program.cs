@@ -22,6 +22,10 @@ namespace my_bna
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
+                
+                // params string[] urls
+                .UseUrls(urls: "http://localhost:10000")
+                
                 .Build();
     }
 }

@@ -1,3 +1,5 @@
+@inject my_bna.Services.IApplicationConfiguration AppSettings;
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +16,31 @@
 <body>
     @RenderBody()
 
+<environment include="Development">
+    <script type="text/javascript">
+        const googleAPI = Object.create(null, {
+            "key": {
+                get: () => '@AppSettings.GoogleApiKey'
+            }
+        })
+        Object.freeze(googleAPI)
+    </script>
     <script src="~/dist/vendor.js" asp-append-version="true"></script>
-    @RenderSection("scripts", required: false)
+    <script src="https://maps.googleapis.com/maps/api/js?key=@(AppSettings.GoogleApiKey)&libraries=places"></script>
+</environment>
+
+<environment exclude="Development">
+    <script type="text/javascript">
+        const googleAPI = Object.create(null, {
+            "key": {
+                get: () => '@AppSettings.GoogleApiKey'
+            }
+        })
+        Object.freeze(googleAPI)
+    </script>
+</environment>
+
+
+@RenderSection("scripts", required: false)
 </body>
 </html>
