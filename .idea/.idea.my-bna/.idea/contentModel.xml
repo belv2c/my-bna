@@ -29,6 +29,7 @@
         <e p="Models" t="Include">
           <e p="Favorite.cs" t="Include" />
           <e p="Flight.cs" t="Include" />
+          <e p="MyBnaContext.cs" t="Include" />
           <e p="Note.cs" t="Include" />
           <e p="Place.cs" t="Include" />
           <e p="User.cs" t="Include" />
