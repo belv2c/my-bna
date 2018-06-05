@@ -16,9 +16,29 @@
 <body>
     @RenderBody()
 
-<script src="~/dist/vendor.js" asp-append-version="true"></script>
+<environment include="Development">
+    <script type="text/javascript">
+        const googleAPI = Object.create(null, {
+            "key": {
+                get: () => '@AppSettings.GoogleApiKey'
+            }
+        })
+        Object.freeze(googleAPI)
+    </script>
+    <script src="~/dist/vendor.js" asp-append-version="true"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=@(AppSettings.GoogleApiKey)&libraries=places"></script>
+</environment>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=@(AppSettings.GoogleApiKey)&libraries=places"></script>
+<environment exclude="Development">
+    <script type="text/javascript">
+        const googleAPI = Object.create(null, {
+            "key": {
+                get: () => '@AppSettings.GoogleApiKey'
+            }
+        })
+        Object.freeze(googleAPI)
+    </script>
+</environment>
 
 
 @RenderSection("scripts", required: false)

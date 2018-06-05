@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0318c6a9-b6cf-4245-90de-6bc5f40fe3cb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-bna/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/my-bna/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-bna/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/my-bna/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,17 +55,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavMenu.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-bna/ClientApp/components/NavMenu.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_ViewImports.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewImports.cshtml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -87,16 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
+            <state relative-caret-position="270">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <marker date="1528170761000" expanded="true" signature="80:769" ph="&lt;html.../&gt;" />
-                <marker date="1528170761000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
-                <marker date="1528170761000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
-                <marker date="1528170761000" expanded="true" signature="502:761" ph="&lt;body.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="80:1343" ph="&lt;html.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="502:1335" ph="&lt;body.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="528:998" ph="&lt;environment.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="646:747" ph="{...}" />
+                <marker date="1528171330000" expanded="true" signature="667:737" ph="{...}" />
+                <marker date="1528171330000" expanded="true" signature="1000:1282" ph="&lt;environment.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="1040:1267" ph="&lt;script.../&gt;" />
+                <marker date="1528171330000" expanded="true" signature="1118:1219" ph="{...}" />
+                <marker date="1528171330000" expanded="true" signature="1139:1209" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,10 +98,10 @@
         <entry file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
               <folding>
-                <marker date="1528170742000" expanded="true" signature="25:97" ph="{...}" />
-                <marker date="1528170742000" expanded="true" signature="74:95" ph="{...}" />
+                <marker date="1528170778000" expanded="true" signature="25:130" ph="{...}" />
+                <marker date="1528170778000" expanded="true" signature="74:128" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -118,11 +110,11 @@
       <file leaf-file-name="ApplicationConfiguration.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="30">
+              <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
               <folding>
-                <marker date="1528170696000" expanded="true" signature="25:132" ph="{...}" />
-                <marker date="1528170696000" expanded="true" signature="69:130" ph="{...}" />
+                <marker date="1528170856000" expanded="true" signature="25:160" ph="{...}" />
+                <marker date="1528170856000" expanded="true" signature="97:158" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -131,7 +123,7 @@
       <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="173">
               <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
               <folding>
                 <marker date="1528170195000" expanded="true" signature="6:364" ph="..." />
@@ -144,6 +136,21 @@
                 <marker date="1528170195000" expanded="true" signature="1337:1458" ph="{...}" />
                 <marker date="1528170195000" expanded="true" signature="1491:1575" ph="{...}" />
                 <marker date="1528170195000" expanded="true" signature="1644:1978" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-bna/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <marker date="1528171915000" expanded="false" signature="6:313" ph="..." />
+                <marker date="1528171915000" expanded="true" signature="331:783" ph="{...}" />
+                <marker date="1528171915000" expanded="true" signature="358:781" ph="{...}" />
+                <marker date="1528171915000" expanded="true" signature="411:469" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -198,16 +205,16 @@
         <option value="$PROJECT_DIR$/my-bna/Models/MyBnaContext.cs" />
         <option value="$PROJECT_DIR$/my-bna/Models/SeedData.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql" />
-        <option value="$PROJECT_DIR$/my-bna/Program.cs" />
         <option value="$PROJECT_DIR$/my-bna/ClientApp/components/Home.tsx" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
         <option value="$PROJECT_DIR$/my-bna/Controllers/GooglePlaces.cs" />
         <option value="$PROJECT_DIR$/my-bna/.gitignore" />
         <option value="$PROJECT_DIR$/my-bna/appsettings.json" />
         <option value="$PROJECT_DIR$/my-bna/Startup.cs" />
-        <option value="$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" />
         <option value="$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs" />
+        <option value="$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" />
         <option value="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/my-bna/Program.cs" />
       </list>
     </option>
   </component>
@@ -221,8 +228,8 @@
     <handled-path value="$PROJECT_DIR$/my-bna/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="68" />
+    <option name="x" value="86" />
+    <option name="y" value="23" />
     <option name="width" value="1168" />
     <option name="height" value="727" />
   </component>
@@ -404,7 +411,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18109000" />
+    <option name="totallyTimeSpent" value="19142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,7 +423,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="23" width="1168" height="727" extended-state="0" />
+    <frame x="421" y="23" width="1168" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -425,15 +432,15 @@
       <window_info anchor="bottom" id="Unit Tests" weight="0.32994923" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="REST Client" weight="0.43333334" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4500846" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44920635" />
       <window_info anchor="bottom" id="Version Control" weight="0.32994923" />
       <window_info anchor="bottom" id="Terminal" weight="0.32857144" />
       <window_info anchor="bottom" id="NuGet" weight="0.6539683" />
       <window_info anchor="bottom" id="Database Console" sideWeight="0.49911505" weight="0.32857144" />
-      <window_info anchor="bottom" id="TypeScript" />
+      <window_info anchor="bottom" id="TypeScript" weight="0.32857144" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21936058" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Build" weight="0.32994923" />
+      <window_info anchor="bottom" id="Build" weight="0.32857144" />
       <window_info anchor="right" id="Database" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -667,19 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <marker date="1528161105000" expanded="true" signature="6:313" ph="..." />
-            <marker date="1528161105000" expanded="true" signature="331:652" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="358:650" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="411:469" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -813,16 +807,6 @@
     <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewImports.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewStart.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding>
-            <marker date="1528051103000" expanded="true" signature="0:28" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -833,9 +817,71 @@
     <entry file="file://$PROJECT_DIR$/my-bna/npm-shrinkwrap.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <marker date="1528170778000" expanded="true" signature="25:130" ph="{...}" />
+            <marker date="1528170778000" expanded="true" signature="74:128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="69" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="69" />
+          <folding>
+            <marker date="1528170856000" expanded="true" signature="25:160" ph="{...}" />
+            <marker date="1528170856000" expanded="true" signature="97:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <marker date="1528171330000" expanded="true" signature="80:1343" ph="&lt;html.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="502:1335" ph="&lt;body.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="528:998" ph="&lt;environment.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="646:747" ph="{...}" />
+            <marker date="1528171330000" expanded="true" signature="667:737" ph="{...}" />
+            <marker date="1528171330000" expanded="true" signature="1000:1282" ph="&lt;environment.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="1040:1267" ph="&lt;script.../&gt;" />
+            <marker date="1528171330000" expanded="true" signature="1118:1219" ph="{...}" />
+            <marker date="1528171330000" expanded="true" signature="1139:1209" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <marker date="1528051103000" expanded="true" signature="0:28" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
+        <state relative-caret-position="173">
           <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
             <marker date="1528170195000" expanded="true" signature="6:364" ph="..." />
@@ -852,47 +898,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/appsettings.Development.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/appsettings.json">
+    <entry file="file://$PROJECT_DIR$/my-bna/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="255">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
-            <marker date="1528170696000" expanded="true" signature="25:132" ph="{...}" />
-            <marker date="1528170696000" expanded="true" signature="69:130" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <marker date="1528170742000" expanded="true" signature="25:97" ph="{...}" />
-            <marker date="1528170742000" expanded="true" signature="74:95" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-          <folding>
-            <marker date="1528170761000" expanded="true" signature="80:769" ph="&lt;html.../&gt;" />
-            <marker date="1528170761000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
-            <marker date="1528170761000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
-            <marker date="1528170761000" expanded="true" signature="502:761" ph="&lt;body.../&gt;" />
+            <marker date="1528171915000" expanded="false" signature="6:313" ph="..." />
+            <marker date="1528171915000" expanded="true" signature="331:783" ph="{...}" />
+            <marker date="1528171915000" expanded="true" signature="358:781" ph="{...}" />
+            <marker date="1528171915000" expanded="true" signature="411:469" ph="{...}" />
           </folding>
         </state>
       </provider>
