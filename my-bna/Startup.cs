@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using my_bna.Models;
+using my_bna.Services;
 
 namespace my_bna
 {
@@ -28,6 +29,11 @@ namespace my_bna
             
             services.AddDbContext<MyBnaContext>(options =>
                 options.UseSqlite("Data Source=DefaultConnection"));
+
+            //configures googleAPI key
+            services.AddSingleton<IApplicationConfiguration, ApplicationConfiguration>(
+                e => Configuration.GetSection("ApplicationConfiguration")
+                    .Get<ApplicationConfiguration>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
