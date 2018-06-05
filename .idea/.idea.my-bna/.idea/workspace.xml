@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0318c6a9-b6cf-4245-90de-6bc5f40fe3cb" name="Default" comment="" />
+    <list default="true" id="0318c6a9-b6cf-4245-90de-6bc5f40fe3cb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.my-bna/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-bna/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/my-bna/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,18 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-bna/Views/Home/Index.cshtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1528051103000" expanded="true" signature="0:41" ph="@..." />
-                <marker date="1528051103000" expanded="true" signature="81:170" ph="@{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_ViewImports.cshtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewImports.cshtml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -92,40 +87,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
               <folding>
-                <marker date="1528051103000" expanded="true" signature="16:597" ph="&lt;html.../&gt;" />
-                <marker date="1528051103000" expanded="true" signature="23:437" ph="&lt;head.../&gt;" />
-                <marker date="1528051103000" expanded="true" signature="292:429" ph="&lt;environment.../&gt;" />
-                <marker date="1528051103000" expanded="true" signature="438:589" ph="&lt;body.../&gt;" />
+                <marker date="1528170761000" expanded="true" signature="80:769" ph="&lt;html.../&gt;" />
+                <marker date="1528170761000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
+                <marker date="1528170761000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
+                <marker date="1528170761000" expanded="true" signature="502:761" ph="&lt;body.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-bna/appsettings.json">
+      <file leaf-file-name="IApplicationConfiguration.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1528170742000" expanded="true" signature="25:97" ph="{...}" />
+                <marker date="1528170742000" expanded="true" signature="74:95" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="npm-shrinkwrap.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-bna/npm-shrinkwrap.json">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="ApplicationConfiguration.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding>
+                <marker date="1528170696000" expanded="true" signature="25:132" ph="{...}" />
+                <marker date="1528170696000" expanded="true" signature="69:130" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-bna/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+              <folding>
+                <marker date="1528170195000" expanded="true" signature="6:364" ph="..." />
+                <marker date="1528170195000" expanded="true" signature="382:1998" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="409:1996" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="468:531" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="754:946" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="1134:1990" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="1181:1474" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="1337:1458" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="1491:1575" ph="{...}" />
+                <marker date="1528170195000" expanded="true" signature="1644:1978" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-bna/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2691">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="480">
+              <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -152,8 +180,10 @@
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Place.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Models/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Models/Flight.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/my-bna/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -167,13 +197,17 @@
         <option value="$PROJECT_DIR$/my-bna/my-bna.csproj" />
         <option value="$PROJECT_DIR$/my-bna/Models/MyBnaContext.cs" />
         <option value="$PROJECT_DIR$/my-bna/Models/SeedData.cs" />
-        <option value="$PROJECT_DIR$/my-bna/Startup.cs" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/7f6e3499-fa14-4734-b213-8012c1a10842/console.sql" />
-        <option value="$PROJECT_DIR$/my-bna/appsettings.json" />
         <option value="$PROJECT_DIR$/my-bna/Program.cs" />
         <option value="$PROJECT_DIR$/my-bna/ClientApp/components/Home.tsx" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" />
         <option value="$PROJECT_DIR$/my-bna/Controllers/GooglePlaces.cs" />
+        <option value="$PROJECT_DIR$/my-bna/.gitignore" />
+        <option value="$PROJECT_DIR$/my-bna/appsettings.json" />
+        <option value="$PROJECT_DIR$/my-bna/Startup.cs" />
+        <option value="$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs" />
+        <option value="$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs" />
+        <option value="$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -187,9 +221,9 @@
     <handled-path value="$PROJECT_DIR$/my-bna/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
-    <option name="y" value="23" />
-    <option name="width" value="1108" />
+    <option name="x" value="118" />
+    <option name="y" value="68" />
+    <option name="width" value="1168" />
     <option name="height" value="727" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -237,6 +271,12 @@
               <item name="my-bna (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="my-bna" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="my-bna (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="my-bna" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Services" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
@@ -364,7 +404,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17194000" />
+    <option name="totallyTimeSpent" value="18109000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,7 +416,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="23" width="1108" height="727" extended-state="0" />
+    <frame x="234" y="23" width="1168" height="727" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -391,10 +431,10 @@
       <window_info anchor="bottom" id="NuGet" weight="0.6539683" />
       <window_info anchor="bottom" id="Database Console" sideWeight="0.49911505" weight="0.32857144" />
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23170732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21936058" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" weight="0.32994923" />
-      <window_info active="true" anchor="right" id="Database" visible="true" weight="0.15478425" />
+      <window_info anchor="right" id="Database" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
@@ -438,29 +478,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/Error.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1528051103000" expanded="true" signature="0:37" ph="@..." />
-            <marker date="1528051103000" expanded="true" signature="154:306" ph="@..." />
-            <marker date="1528051103000" expanded="true" signature="212:306" ph="{...}" />
-            <marker date="1528051103000" expanded="true" signature="219:304" ph="&lt;p.../&gt;" />
-            <marker date="1528051103000" expanded="true" signature="334:469" ph="&lt;p.../&gt;" />
-            <marker date="1528051103000" expanded="true" signature="470:860" ph="&lt;p.../&gt;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Views/_ViewStart.cshtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1528051103000" expanded="true" signature="0:28" ph="@..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/webpack.config.vendor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3" />
@@ -677,25 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-280">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <marker date="1528161105000" expanded="true" signature="6:364" ph="..." />
-            <marker date="1528161105000" expanded="true" signature="382:1990" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="409:1988" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="468:531" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="754:938" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="1126:1982" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="1173:1466" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="1329:1450" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="1483:1567" ph="{...}" />
-            <marker date="1528161105000" expanded="true" signature="1636:1970" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://7f6e3499-fa14-4734-b213-8012c1a10842/schema/main/table/user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -825,15 +823,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
+    <entry file="file://$PROJECT_DIR$/my-bna/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="480">
+          <caret line="32" column="4" lean-forward="true" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/npm-shrinkwrap.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
           <folding>
-            <marker date="1528051103000" expanded="true" signature="16:597" ph="&lt;html.../&gt;" />
-            <marker date="1528051103000" expanded="true" signature="23:437" ph="&lt;head.../&gt;" />
-            <marker date="1528051103000" expanded="true" signature="292:429" ph="&lt;environment.../&gt;" />
-            <marker date="1528051103000" expanded="true" signature="438:589" ph="&lt;body.../&gt;" />
+            <marker date="1528170195000" expanded="true" signature="6:364" ph="..." />
+            <marker date="1528170195000" expanded="true" signature="382:1998" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="409:1996" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="468:531" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="754:946" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="1134:1990" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="1181:1474" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="1337:1458" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="1491:1575" ph="{...}" />
+            <marker date="1528170195000" expanded="true" signature="1644:1978" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -841,20 +855,45 @@
     <entry file="file://$PROJECT_DIR$/my-bna/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/npm-shrinkwrap.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-bna/appsettings.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-bna/.gitignore">
+    <entry file="file://$PROJECT_DIR$/my-bna/Services/ApplicationConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2691">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <marker date="1528170696000" expanded="true" signature="25:132" ph="{...}" />
+            <marker date="1528170696000" expanded="true" signature="69:130" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Services/IApplicationConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1528170742000" expanded="true" signature="25:97" ph="{...}" />
+            <marker date="1528170742000" expanded="true" signature="74:95" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-bna/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+          <folding>
+            <marker date="1528170761000" expanded="true" signature="80:769" ph="&lt;html.../&gt;" />
+            <marker date="1528170761000" expanded="true" signature="87:501" ph="&lt;head.../&gt;" />
+            <marker date="1528170761000" expanded="true" signature="356:493" ph="&lt;environment.../&gt;" />
+            <marker date="1528170761000" expanded="true" signature="502:761" ph="&lt;body.../&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>

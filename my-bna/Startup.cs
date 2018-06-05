@@ -27,7 +27,7 @@ namespace my_bna
             services.AddMvc();
             
             services.AddDbContext<MyBnaContext>(options =>
-                options.UseSqlite("Data Source=my_bna.db"));
+                options.UseSqlite("Data Source=DefaultConnection"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
